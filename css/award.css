@@ -1,0 +1,45 @@
+#awards{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/img/awards/awards.jpg);
+    background-size: contain;
+    background-position: -300px 0px ;
+    background-repeat: no-repeat;
+    
+}
+
+#awards .content-bg{
+    display: flex;
+    justify-content: right;
+    padding-top:12rem;
+    padding-right: 5rem;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 52%, rgba(255,255,255,1) 60%);
+    background-position: -500px 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.award-info{
+    width: 40%;
+}
+
+.h-des-award{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.award-info h2{
+    
+}
+
+.h-info{
+    font-size: 37px;
+    color: rgb(58, 1, 1);
+}
+
+img.man{
+    margin-left: 8rem;
+    width: 49%;
+}

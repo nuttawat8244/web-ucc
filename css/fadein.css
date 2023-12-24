@@ -1,0 +1,95 @@
+.animate {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    /* border: 2px solid blue; */
+  }
+  
+  /*=== Optional Delays, change values here  ===*/
+  
+  .three {
+    /* -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s; */
+  }
+  
+  
+  @-webkit-keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }
+
+
+  .slide{
+    opacity: 0;
+     animation:showcontent-head 1s ease-in-out 0.3s 1 forwards;
+ }
+ 
+ @keyframes showcontent{
+     from{
+         opacity: 0;
+         transform: translate(0,10px);
+         filter:blur(10px);
+     }to{
+         opacity: 1;
+         transform: translate(0,0);
+         filter:blur(0);
+     }
+ }
+
+ .slide-contact{
+    opacity: 0;
+     animation:showcontent .5s ease-in-out 0.3s 1 forwards;
+ }
+ 
+ @keyframes showcontent{
+     from{
+         opacity: 0;
+         transform: translate(0,200px);
+         filter:blur(0);
+     }to{
+         opacity: 1;
+         transform: translate(0,0);
+         filter:blur(0);
+     }
+ }
+
+ @keyframes showcontent-head{
+  from{
+      opacity: 0;
+      transform: translate(-150px,0);
+      filter:blur(10px);
+  }to{
+      opacity: 1;
+      transform: translate(0,0);
+      filter:blur(0);
+  }
+}

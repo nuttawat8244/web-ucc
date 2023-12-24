@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.img-page{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+  
+  p:hover {
+    cursor: pointer;
+  }
+  
+  #bg-grid{
+    background-color: #490101;
+    overflow: hidden;
+  }
+  
+  .grid-container {
+    /* border: solid 1px #eeeeee; for debugging display */
+    /* padding: 0.5vw; */
+    /* overflow: hidden; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 23.5vw;
+    /* grid-gap: 0.2vw;  */
+  }
+  
+  .griditem {
+    background-size: cover;
+    background-position: center;
+  /*   filter: grayscale(100%); */
+    /* padding: 2vw; */
+    font-size: 0.8em;
+    box-sizing: border-box;
+    transition: 1.5s ease-in-out;
+  }
+  .griditem:hover {
+    cursor: pointer;
+    /* filter: brightness(60%); */
+    /* transform: scale(1.05); */
+    /* background-position: center; */
+  }
+  /* set background images*/
+  .image1 {
+    background-position: center;
+    background-image: url(../assets/img/grid/1.JPG);
+    /*grid-area: image1;*/
+  }
+  .image1:hover {
+    background-position: center;
+    background-image: url(../assets/img/grid/7.JPG);
+    /* transform: scale(1.25); */
+  }
+
+  .image2 {
+    background-position: center;
+    background-image: url(../assets/img/grid/3.JPG);
+    /*grid-area: image2;*/
+  }
+
+  .image2:hover {
+    background-position: center;
+    background-image: url(../assets/img/grid/6.JPG);
+    /*grid-area: image2;*/
+  }
+
+  .image3 {
+    background-position: center;
+    background-image: url(../assets/img/grid/4.JPG);
+    /*grid-area: image3;*/
+  }
+
+  .image3:hover {
+    background-position: center;
+    background-image: url(../assets/img/grid/8.JPG);
+    /*grid-area: image3;*/
+  }
+
+  .image4 {
+    background-position: center;
+    background-image: url(../assets/img/grid/2.JPG);
+    /*grid-area: image4;*/
+  }
+
+  .image4:hover {
+    background-position: center;
+    background-image: url(../assets/img/grid/1.JPG);
+    /*grid-area: image4;*/
+  }
+ 
+  .image5 {
+    background-position: center;
+    background-image: url(../assets/img/grid/5.JPG);
+  }
+
+  .image5:hover {
+    background-position: center;
+    background-image: url(../assets/img/grid/3.JPG);
+  }
+
+  .image6 {
+    background-position: center;
+    background-image: url(../assets/img/grid/7.JPG);
+  }
+
+  .image6:hover {
+    background-position: center;
+    background-image: url(../assets/img/grid/2.JPG);
+  }
+  /* .image8 {
+    background-position: center;
+    background-image: url(../assets/img/grid/8.JPG);
+  } */
+
+
+
+
+
+  
+  /*full image modal */
+  
+  
+  

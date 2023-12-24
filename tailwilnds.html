@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body>
+    <button class="bg-violet-500 hover:bg-violet-600 active:bg-red-700 focus:bg-red-700 focus:ring focus:ring-violet-900 rounded-full p-7">
+        Save changes
+    </button>
+    <div class="bg-clip-border p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
+<div class="bg-clip-padding p-6 bg-red-1100 border-4 border-violet-300 border-dashed"></div>
+<div class="bg-clip-content p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
+
+<div class="container w-60 bg-red-400 mx-auto">
+    
+
+<!-- Modal toggle -->
+
+
+<!-- Modal toggle -->
+<button data-modal-target="select-modal" data-modal-toggle="select-modal" class="block mx-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+    Toggle modal
+  </button>
+  
+  <!-- Main modal -->
+  <div id="select-modal" tabindex="-1" aria-hidden="true" class="hidden  transition-opacity fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div class="relative p-4 w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+              <!-- Modal header -->
+              <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                      Open positions
+                  </h3>
+                  <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm h-8 w-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="select-modal">
+                      <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                  </button>
+              </div>
+              <!-- Modal body -->
+              <div class="p-4 md:p-5">
+                  <p class="text-gray-500 dark:text-gray-400 mb-4">Select your desired position:</p>
+                  <ul class="space-y-4 mb-4">
+                      <li>
+                          <input type="radio" id="job-1" name="job" value="job-1" class="hidden peer" required>
+                          <label for="job-1" class="inline-flex items-center justify-between w-full p-5 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">                           
+                              <div class="block">
+                                  <div class="w-full text-lg font-semibold">UI/UX Engineer</div>
+                                  <div class="w-full text-gray-500 dark:text-gray-400">Flowbite</div>
+                              </div>
+                              <svg class="w-4 h-4 ms-3 rtl:rotate-180 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+                          </label>
+                      </li>
+                      <li>
+                          <input type="radio" id="job-2" name="job" value="job-2" class="hidden peer">
+                          <label for="job-2" class="inline-flex items-center justify-between w-full p-5 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">
+                              <div class="block">
+                                  <div class="w-full text-lg font-semibold">React Developer</div>
+                                  <div class="w-full text-gray-500 dark:text-gray-400">Alphabet</div>
+                              </div>
+                              <svg class="w-4 h-4 ms-3 rtl:rotate-180 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+                          </label>
+                      </li>
+                      <li>
+                          <input type="radio" id="job-3" name="job" value="job-3" class="hidden peer">
+                          <label for="job-3" class="inline-flex items-center justify-between w-full p-5 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">
+                              <div class="block">
+                                  <div class="w-full text-lg font-semibold">Full Stack Engineer</div>
+                                  <div class="w-full text-gray-500 dark:text-gray-400">Apple</div>
+                              </div>
+                              <svg class="w-4 h-4 ms-3 rtl:rotate-180 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+                          </label>
+                      </li>
+                  </ul>
+                  <button class="text-white inline-flex w-full justify-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Next step
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div> 
+  
+  </div>
+
+
+  <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 mx-auto block">Message</button>
+</div>
+
+<div class="container w-96 text-2xl mx-auto text-center  bg-red-600 cursor-pointer hover:bg-gray-400 hover:text-red-900 hover:font-bold" >
+
+
+</div>
+
+<section class="containers mx-auto bg-red-200" style="width: 60%;">
+    <div class="flex font-sans">
+        <div class="flex-none w-80 relative">
+          <img src="assets/img/3.png" alt="" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+        </div>
+        <form class="flex-auto p-6">
+          <div class="flex flex-wrap">
+            <h1 class="flex-auto text-lg font-semibold text-slate-900">
+              Utility Jacket
+            </h1>
+            <div class="text-lg font-semibold text-slate-500">
+              $110.00
+            </div>
+            <div class="w-full flex-none text-sm font-medium text-slate-700 mt-2">
+              In stock
+            </div>
+          </div>
+          <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
+            <div class="space-x-2 flex text-sm">
+              <label>
+                <input class="sr-only peer" name="size" type="radio" value="xs" checked />
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                  XS
+                </div>
+              </label>
+              <label>
+                <input class="sr-only peer" name="size" type="radio" value="s" />
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                  S
+                </div>
+              </label>
+              <label>
+                <input class="sr-only peer" name="size" type="radio" value="m" />
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                  M
+                </div>
+              </label>
+              <label>
+                <input class="sr-only peer" name="size" type="radio" value="l" />
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                  L
+                </div>
+              </label>
+              <label>
+                <input class="sr-only peer" name="size" type="radio" value="xl" />
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                  XL
+                </div>
+              </label>
+            </div>
+          </div>
+          <div class="flex space-x-4 mb-6 text-sm font-medium">
+            <div class="flex-auto flex space-x-4">
+              <button class="h-10 px-6 font-semibold rounded-md bg-black text-white" type="submit">
+                Buy now
+              </button>
+              <button class="h-10 px-6 font-semibold rounded-md border border-slate-200 text-slate-900" type="button">
+                Add to bag
+              </button>
+            </div>
+            <button class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-slate-300 border border-slate-200" type="button" aria-label="Like">
+              <svg width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+              </svg>
+            </button>
+          </div>
+          <p class="text-sm text-slate-700">
+            Free shipping on all continental US orders.
+          </p>
+        </form>
+      </div>
+</section>
+
+</body>
+
+</html>
+
