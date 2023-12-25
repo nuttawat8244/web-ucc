@@ -1,0 +1,506 @@
+#services {
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.708); */
+    background: rgba(0, 0, 0, 0.5);
+    /* background: linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.29) 0%,
+      rgba(0, 0, 0, 0.322) 50%
+    );
+    backdrop-filter: blur(64px); */
+  }
+  
+  .gtco-testimonials {
+    background: transparent;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .owl-carousel {
+    position: relative;
+    background: transparent;
+    margin-top: -30px;
+  }
+  
+  .gtco-testimonials h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 50px;
+  }
+  
+  .gtco-testimonials .owl-stage-outer {
+    padding: 20px 0;
+  }
+  
+  .gtco-testimonials .owl-nav {
+    bottom: 55px;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+  
+    /* background-color: #000000; */
+    display: block;
+    z-index: 533333;
+  }
+  
+  .owl-prev,
+  .owl-next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50% !important;
+    /* background-color: #ffffff !important; */
+  }
+  
+  .owl-prev:hover,
+  .owl-next:hover {
+    background-color: rgb(191, 209, 224) !important;
+    color: #000000 !important;
+  }
+  
+  .owl-prev span,
+  .owl-next span {
+   padding: 0rem;
+    
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .gtco-testimonials .owl-dots {
+    text-align: center;
+  }
+  
+
+
+  .gtco-testimonials .owl-dots span {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: block;
+    background-color: #ffffff !important;
+    border: 2px solid #ffffff;
+    margin: 0 5px;
+  }
+  
+  .gtco-testimonials .owl-dots .active {
+    box-shadow: none;
+  }
+  
+  .gtco-testimonials .owl-dots .active span {
+    background-color: #f80101 !important;
+    border: none;
+    box-shadow: none;
+    height: 17px !important;
+    width: 17px !important;
+    margin-bottom: 3px !important;
+  }
+  
+  .gtco-testimonials .card {
+    width: 800px;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0 8px 20px 0px #6e6e6e; */
+    /* box-shadow: 0px 10px 20px #888888,7px -7px 2px #888888; */
+    margin-left: -7rem;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  
+  .gtco-testimonials .card .card-img-top {
+    /* max-width: 200px; */
+    border-radius: 20px;
+    margin: 15px auto 0;
+    box-shadow: 13px 6px 17px gray;
+    width: 100% ;
+    border: 0.3px solid rgb(116, 116, 116);
+    /* height: 300px; */
+    object-fit: cover;
+  }
+  
+  .gtco-testimonials .card h5 {
+    color: #000000;
+    letter-spacing: 2px;
+    font-size: 25px !important;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  
+  .gtco-testimonials .card h5 span {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  .gtco-testimonials .card p {
+    font-size: 18px;
+    color: #555;
+    padding-bottom: 15px;
+  }
+  
+  .gtco-testimonials .active {
+    opacity: 1;
+    transition: all 0.5s;
+  }
+  
+  .gtco-testimonials .center {
+    opacity: 1;
+    transition: all 0.5s;
+  }
+  
+  .gtco-testimonials .center h5 {
+    font-size: 24px;
+  }
+  
+  .gtco-testimonials .center h5 span {
+    font-size: 20px;
+  }
+  
+  .gtco-testimonials .center .card-img-top {
+    /* max-width: 100%; */
+    height: auto;
+  }
+  p.text-service {
+    padding-left: 3.3rem;
+    text-align: left;
+  }
+  .card-body h5 {
+    padding-left: 3.3rem;
+    text-align: left;
+  }
+  
+  .service-top 
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      225deg,
+      #000000 0%,
+      #181717 9%,
+      #ff0019 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #000000;
+    background-clip: text;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 8s linear infinite;
+    display: inline-block;
+        
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: -200% center;
+    }
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* height: auto; */
+    gap: 0px;
+
+  }
+  
+  .service-grid .card-img-top {
+    margin: 15px auto 0;
+    /* width: 100% !important; */
+    
+  }
+  
+  .img-service {
+    position: relative;
+  }
+  
+  img.card-img-top {
+    /* margin-top: 0px !important ; */
+    width: 143% !important;
+    margin-top: 60px !important;
+    margin-left: -100px !important;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .card-body {
+    margin: 45px auto;
+    width: 470px;
+  }
+  
+  .owl-item .active .center {
+    position: relative;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1200px) {
+
+    #services {
+      height: auto;
+      /* background-color: rgba(0, 0, 0, 0.708); */
+      background: rgba(0, 0, 0, 0.5);
+      /* background: linear-gradient(
+        180deg,
+        rgba(255, 0, 0, 0.29) 0%,
+        rgba(0, 0, 0, 0.322) 50%
+      );
+      backdrop-filter: blur(64px); */
+    }
+    .gtco-testimonials {
+      height: auto;
+      background: transparent;
+      position: relative;
+      margin-top: 20px;
+    }
+    
+    .owl-carousel {
+      height: auto;
+      /* position: relative; */
+      background: transparent;
+      margin-top: -30px;
+    }
+    
+    .gtco-testimonials h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #333333;
+      margin-bottom: 50px;
+    }
+    
+    .gtco-testimonials .owl-stage-outer {
+      padding: 20px 0;
+    }
+    
+    .gtco-testimonials .owl-nav {
+      bottom: 55px;
+      left: 50%;
+      transform: translate(-50%,0);
+      /* position: absolute; */
+    
+      /* background-color: #000000; */
+      display: block;
+      z-index: 533333;
+    }
+    
+    .owl-prev,
+    .owl-next {
+      width: 30px;
+      height: 30px;
+      border-radius: 50% !important;
+      /* background-color: #ffffff !important; */
+    }
+    
+    .owl-prev:hover,
+    .owl-next:hover {
+      background-color: rgb(191, 209, 224) !important;
+      color: #000000 !important;
+    }
+    
+    .owl-prev span,
+    .owl-next span {
+     padding: 0rem;
+      
+      font-size: 20px;
+      font-weight: 500;
+    }
+    
+    .gtco-testimonials .owl-dots {
+      text-align: center;
+    }
+    
+  
+  
+    .gtco-testimonials .owl-dots span {
+      position: relative;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      display: block;
+      background-color: #ffffff !important;
+      border: 2px solid #ffffff;
+      margin: 0 5px;
+    }
+    
+    .gtco-testimonials .owl-dots .active {
+      box-shadow: none;
+    }
+    
+    .gtco-testimonials .owl-dots .active span {
+      background-color: #f80101 !important;
+      border: none;
+      box-shadow: none;
+      height: 17px !important;
+      width: 17px !important;
+      margin-bottom: 3px !important;
+    }
+    
+    .gtco-testimonials .card {
+      width: 400px;
+      height: 660px;
+      background-color: rgb(255, 255, 255);
+      /* box-shadow: 0 8px 20px 0px #6e6e6e; */
+      /* box-shadow: 0px 10px 20px #888888,7px -7px 2px #888888; */
+      top: 0;
+      left: 50%;
+      /* margin-left: 1rem; */
+      transform: translate(-22%,0);
+      padding: 0px 0px;
+      border-radius: 20px;
+      border: 2px solid black;
+    }
+    
+    .gtco-testimonials .card .card-img-top {
+      /* max-width: 200px; */
+      border-radius: 20px;
+      margin: 0px auto 0;
+      box-shadow: 13px 6px 17px gray;
+      width: 100% !important;
+      border: 0.3px solid rgb(116, 116, 116);
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .card-body hr{
+      margin-top: -5px;
+    }
+    .gtco-testimonials .card h5 {
+      color: #000000;
+      letter-spacing: 2px;
+      font-size: 25px ;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+    
+    .gtco-testimonials .card h5 span {
+      font-size: 18px;
+      color: #666666;
+    }
+    
+    .gtco-testimonials .card p {
+      font-size: 18px;
+      color: #555;
+      padding-bottom: 15px;
+    }
+    
+    .gtco-testimonials .active {
+      opacity: 1;
+      transition: all 0.5s;
+    }
+    
+    .gtco-testimonials .center {
+      opacity: 1;
+      transition: all 0.5s;
+    }
+    
+    .gtco-testimonials .center h5 {
+      font-size: 24px;
+    }
+    
+    .gtco-testimonials .center h5 span {
+      font-size: 20px;
+    }
+    
+    .gtco-testimonials .center .card-img-top {
+      /* max-width: 100%; */
+      height: auto;
+    }
+    p.text-service {
+      padding-left: 0rem;
+      text-align: left;
+    }
+    .card-body h5 {
+      padding-left: 0rem;
+      text-align: left;
+    }
+    
+    .service-top 
+    {
+       text-transform: uppercase;
+      background-image: linear-gradient(
+        225deg,
+        #000000 0%,
+        #181717 9%,
+        #ff0019 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #000000;
+      background-clip: text;
+      
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 8s linear infinite;
+      display: inline-block;
+          
+    }
+    
+    @keyframes textclip {
+      to {
+        background-position: -200% center;
+      }
+    }
+    
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0px;
+      
+    }
+    
+    .service-grid .card-img-top {
+      margin: 15px auto 0;
+      /* width: 100% !important; */
+      
+    }
+    
+    .img-service {
+      /* height: 270px; */
+      /* border: 1px solid black; */
+    margin: 0;
+    padding: 0.3rem;
+    position: unset;
+ 
+
+    }
+    
+    img.card-img-top {
+      margin: 0 !important;
+      position: unset;
+      box-shadow: none !important;
+      z-index: 2;
+    }
+    
+    .card-body {
+      /* border: 1px solid black; */
+      margin: 0px auto !important; 
+       width: 100%;
+       height: 860px;
+    }
+    
+    .owl-item .active .center {
+      position: unset;
+    }
+
+  
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.owl-prev {
+    outline: 0;
+  }
+  
+  .owl-carousel button.owl-dot {
+    outline: 0;
+  }
+}
