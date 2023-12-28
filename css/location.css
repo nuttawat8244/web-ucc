@@ -1,0 +1,58 @@
+.map,footer{
+    background: rgb(8,0,0);
+    background: linear-gradient(119deg, rgba(8,0,0,0.3783963585434174) 22%, rgba(111,5,5,0.3515056022408963) 91%);
+  }
+  
+  .location{
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 5px; */
+  }
+  .office{
+    background-color: #00000000;
+    backdrop-filter: blur(4px);
+    position: relative;
+    padding: 1.2rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1rem;
+    color: aliceblue;
+    border-right: 1px solid rgba(255, 255, 255, 0.205);
+    border-left: 1px solid rgba(255, 255, 255, 0.205);
+  
+    /* background-color: aliceblue; */
+  }
+  
+  
+  .office img{
+    margin-top: 1rem;
+    /* padding-top: 1rem;
+    padding-right: 2rem; */
+    background-color: transparent;
+    border-radius: 8px;
+    height: 250px;
+    width: 100%;
+    object-fit:  center fill; 
+    
+  }
+  
+  
+  .address{
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .tel-fax{
+    color: red;
+  }
+  
+  img.qrcode{
+    border-radius: 5px;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    width: 26%;
+    height: auto;
+  }

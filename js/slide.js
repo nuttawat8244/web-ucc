@@ -172,11 +172,7 @@ function delayedClickNav() {
 let speed = 100;
 let i = 0;
 let currentTextIndex = 0;
-let texts = [
-  'United Coil Center Limited.',
-  'To Be World Class Steel Service Center',
-  'Yes we United'
-];
+let texts = ['United Coil Center Limited.', 'To Be World Class Steel Service Center', 'Yes we United' ];
 
 function typeWriter() {
   let currentText = texts[currentTextIndex];
